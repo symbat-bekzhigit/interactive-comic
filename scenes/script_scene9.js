@@ -14,9 +14,9 @@ document.addEventListener("click", function(event) {
 
     if (yCoordinate < threshold) {
         // Clicked in the right part, treat it as Layer_1
-        window.location.href = "scene3a.html";
+        window.location.href = "scene13.html";
     } else {
         // Clicked in the left part, treat it as Layer_2
-        window.location.href = "scene3b.html";
+        window.location.href = "scene10.html";
     }
 });
