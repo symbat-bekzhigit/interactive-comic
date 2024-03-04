@@ -77,20 +77,31 @@ body {
 .blue-button {
     display: inline-block;
     position: absolute;
-    width: 40% !important;
-    height: 80px !important;
-    bottom: 1.3px;
-    left: 1.3px;
+    width: 30% !important;
+    height: 35px !important;
+    bottom: 10px;
+    left: 60px;
 
 }
 
 .red-button {
     display: inline-block;
     position: absolute;
-    width: 40% !important;
-    height: 80px !important;
-    bottom: 1.3px;
-    right: 1.3px;
+    width: 30% !important;
+    height: 35px !important;
+    bottom: 170px;
+    right: 60px;
+}
+
+.blue-button:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+
+.red-button:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
 }
 
 
